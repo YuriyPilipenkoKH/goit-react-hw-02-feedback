@@ -1,21 +1,20 @@
 import styled from '@emotion/styled';
 
 export const StatList = styled.ul`
-  background-color: rgb(201, 245, 235);
+  list-style  : none ;
+  width: ;
   margin: 0;
   padding: 20px;
   display: flex;
   flex-direction: column;
+  gap: 12px;
   justify-content: center;
-  align-items: center;
 `
 
 
 export const StatItem = styled.li`
-  margin-bottom: 5px;
+
   font-size: 16px;
 
-  :last-child {
-  margin-bottom: 0px;
-}
+
 `
