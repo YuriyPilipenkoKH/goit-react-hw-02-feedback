@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container } from 'components/container/Container';
 import { Section } from 'components/section/Section';
 import { FeedbackOptions } from 'components/FeedbackOptions/FeedbackOptions';
-
+import Notification from 'components/Notification/Notification';
 
 export class App extends Component {
   state = {
@@ -34,11 +34,18 @@ export class App extends Component {
 
     return (
     <Container >
-      <Section title = "Please leave feedback"></Section>
+      <Section title = "Please leave feedback">
       <FeedbackOptions
-            options={options}
+             options={options}
             onLeaveFeedback={this.onLeaveFeedback}
           />
+      </Section>
+
+      <Section title = "Statistics">
+      
+
+      </Section>
+     
       
     </Container>
     ) 
