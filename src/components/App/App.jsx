@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container } from 'components/container/Container';
 import { Section } from 'components/section/Section';
-
+import { FeedbackOptions } from 'components/FeedbackOptions/FeedbackOptions';
 
 
 export class App extends Component {
@@ -35,6 +35,10 @@ export class App extends Component {
     return (
     <Container >
       <Section title = "Please leave feedback"></Section>
+      <FeedbackOptions
+            options={options}
+            onLeaveFeedback={this.onLeaveFeedback}
+          />
       
     </Container>
     ) 
