@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const StatList = styled.li`
+export const StatList = styled.ul`
   background-color: rgb(201, 245, 235);
   margin: 0;
   padding: 20px;
