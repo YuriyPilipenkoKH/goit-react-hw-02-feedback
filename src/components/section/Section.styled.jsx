@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 
 export const MainSection = styled.h2`
+    width: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;

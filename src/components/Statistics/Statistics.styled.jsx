@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const StatList = styled.ul`
   list-style  : none ;
-  width: 240px;
+  width: 210px;
   margin: 0;
   padding: 20px;
   display: flex;

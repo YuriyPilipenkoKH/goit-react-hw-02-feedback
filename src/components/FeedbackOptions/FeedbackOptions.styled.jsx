@@ -1,12 +1,14 @@
 import styled from '@emotion/styled';
 
 export const BtnWrapper = styled.button`
+    width: 250px;
     display: flex;
     flex-direction: column;
+    align-items: baseline;
     gap: 16px;
     border: none;
     background-color: transparent;
-    padding: 0;
+    padding: 20px;
 
 `
 
