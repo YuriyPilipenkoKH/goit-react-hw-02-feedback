@@ -17,9 +17,9 @@ export const StatItem = styled.li`
   font-size: 16px;
     display: inline-flex;
     align-items: center;
-    gap: 20px;
+    gap: 12px;
     padding: 8px 16px;
-    width: 120px;
+    width: 125px;
     height: 40px;
     color: var(--black);
     background-color: var(--yellow);

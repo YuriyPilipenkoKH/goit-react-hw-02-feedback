@@ -12,6 +12,7 @@ export class App extends Component {
     bad: 0,
   };
 
+
   onLeaveFeedback = state => {
     this.setState(prevState => ({
       [state]: prevState[state] + 1,
@@ -48,7 +49,11 @@ export class App extends Component {
               neutral={neutral}
               bad={bad}
               total={this.countTotalFeedback()}
-              positivePercentage={this.countPositiveFeedbackPercentage()}
+              positivePercentage={
+                good === 0
+                ? 0
+                : this.countPositiveFeedbackPercentage()
+              }
             />
       </Section>     
     </Container>

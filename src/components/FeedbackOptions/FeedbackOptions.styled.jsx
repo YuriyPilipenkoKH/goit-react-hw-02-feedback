@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const BtnWrapper = styled.button`
+export const BtnWrapper = styled.div`
     width: 250px;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,8 @@ export const Btn = styled.button`
     cursor: pointer;
     box-shadow: var(--shadow-four);
 
-    :hover  {
+    :hover,
+    :focus  {
     outline: none;
     background-color: var(--green);
     color: #fbf7f3;
