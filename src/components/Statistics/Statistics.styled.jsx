@@ -15,6 +15,7 @@ export const StatList = styled.ul`
 export const StatItem = styled.li`
 
   font-size: 16px;
+  font-weight: 600;
     display: inline-flex;
     align-items: center;
     gap: 12px;

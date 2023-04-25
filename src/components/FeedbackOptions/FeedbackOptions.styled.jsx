@@ -14,11 +14,11 @@ export const BtnWrapper = styled.div`
 
 export const Btn = styled.button`
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 17px;
     text-transform: uppercase;
     background-color: var(--yellow);background-color: var(--yellow);
-    width: 100px;
+    width: 120px;
     border:  transparent;
     border-radius: 10px;
     color: var(--black);
