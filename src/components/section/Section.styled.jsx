@@ -1,7 +1,7 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 
 export const MainSection = styled.section`
-    width: 280px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;

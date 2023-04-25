@@ -1,4 +1,5 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components';
+import baseLiStyles from 'components/Statistics/Statistics.styled';
 
 export const BtnWrapper = styled.div`
     width: 250px;
@@ -13,25 +14,14 @@ export const BtnWrapper = styled.div`
 `
 
 export const Btn = styled.button`
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 17px;
-    text-transform: uppercase;
-    background-color: var(--yellow);background-color: var(--yellow);
-    width: 120px;
-    border:  transparent;
-    border-radius: 10px;
-    color: var(--black);
-
-    position: relative;
-    display: flex;
-    align-items: center;
+    ${baseLiStyles};
+    
     justify-content: center;
-    padding: 10px;
 
-    transition: all 0.4s;
+    text-transform: uppercase;
     cursor: pointer;
-    box-shadow: var(--shadow-four);
+    transition: all 0.4s;
+    width: 120px;
 
     :hover,
     :focus  {
