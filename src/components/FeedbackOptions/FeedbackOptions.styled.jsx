@@ -8,7 +8,7 @@ export const BtnWrapper = styled.button`
     gap: 16px;
     border: none;
     background-color: transparent;
-    padding: 20px;
+    padding: 20px 4px;
 
 `
 
@@ -17,11 +17,11 @@ export const Btn = styled.button`
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
-    background-color: #f8d24e;
+    background-color: var(--yellow);background-color: var(--yellow);
     width: 100px;
     border:  transparent;
     border-radius: 10px;
-    color: #000000;
+    color: var(--black);
 
     position: relative;
     display: flex;
@@ -31,11 +31,12 @@ export const Btn = styled.button`
 
     transition: all 0.4s;
     cursor: pointer;
+    box-shadow: var(--shadow-four);
 
     :hover  {
     outline: none;
-    background-color: #0A8817;
+    background-color: var(--green);
     color: #fbf7f3;
-
+    box-shadow: var(--shadow-two);    
     }
 `
