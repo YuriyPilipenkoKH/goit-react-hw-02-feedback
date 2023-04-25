@@ -4,7 +4,7 @@ import { Btn , BtnWrapper} from './FeedbackOptions.styled';
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <>
-      <BtnWrapper className='main'>
+      <BtnWrapper className='btn__wrapper'>
         {options.map(option => {
           return (
             <Btn
