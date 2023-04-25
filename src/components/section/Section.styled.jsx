@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const MainSection = styled.h2`
+export const MainSection = styled.section`
     width: 280px;
     display: flex;
     flex-direction: column;

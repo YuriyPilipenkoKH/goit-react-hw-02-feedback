@@ -4,6 +4,7 @@ import  "./css/index.css";
 import { App } from './components/App/App';
 import { ThemeProvider } from '@emotion/react';
 import { theme } from './constants/theme';
+import './utils/btnAnimation'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
