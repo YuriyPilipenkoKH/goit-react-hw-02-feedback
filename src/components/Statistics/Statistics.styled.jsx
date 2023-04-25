@@ -52,7 +52,7 @@ export default baseLiStyles
 export const StatItem = styled.li`
     ${baseLiStyles}
     
-    width: 125px;
+    width: 135px;
 
     :last-child {
         width: 240px;
