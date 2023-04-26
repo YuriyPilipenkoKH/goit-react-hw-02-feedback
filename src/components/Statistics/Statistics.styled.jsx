@@ -50,7 +50,7 @@ export default baseLiStyles
 
 
 export const StatItem = styled.li`
-    ${baseLiStyles}
+    ${baseLiStyles};
     
     width: 135px;
 
